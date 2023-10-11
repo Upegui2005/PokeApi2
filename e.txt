@@ -1,0 +1,19 @@
+<style>
+        #imgpokemon:hover{
+            animation: 2s linear ataque;
+        }
+        
+      
+        @keyframes ataque {
+            from {
+                /* pushes the sun down past the viewport */
+                transform: translateX(0);
+                transform: translateY(0);
+            }
+            to {
+                /* returns the sun to its default position */
+                transform: translateX(2rem);
+                transform: translateY(-2rem);
+            }
+        }       
+</style>
